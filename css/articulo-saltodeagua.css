@@ -1,0 +1,91 @@
+.cabecera{
+    background:#008037;
+    color: #fafafa;
+    display: flex;
+}
+.cabecera h1{
+    font-size: 2.5vw;
+}
+.cabecera__bloque1{
+    height: 50vh;
+    width: 50%;
+    background: url(../img/campsalto-17.jpg) no-repeat center center;
+    background-size: cover;
+}
+.cabecera__bloque2{
+    height: 50vh;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+    text-align: center;
+}
+.titulo {
+    font-family: 'Montserrat', sans-serif;
+	font-weight: normal;
+	padding-top: 40px;
+    color: #008037;
+}
+.articulo{
+    max-width: 100%;
+    text-align: justify;
+}
+.articulo p{
+    display: block;
+}
+
+
+.imagen-der{
+    float: right;
+    width: 40%;
+    height: 300px;
+    margin:auto;
+    clip-path: inset(0 0 0 0);
+    shape-outside: inset(0 0 0 0) border-box ;
+    shape-margin: 1em;
+}
+.imagen-der img{
+    width: 100%;
+    display: block;
+    margin: 2em;
+
+}
+.imagen-izq{
+    float: left;
+    width: 40%;
+    height: 300px;
+    margin:auto;
+    clip-path: inset(0 0 0 0);
+    shape-outside: inset(0 0 0 0) border-box ;
+    shape-margin: 1em;
+}
+.imagen-izq img{
+    width: 100%;
+    display: block;
+    
+}
+/* * ============================== */
+/* * ====== MEDIA QUERIES ========= */
+/* * ============================== */
+@media only screen and (max-width: 1100px){
+.imagen-der{
+    width: 100%;
+    height: 50vh;
+
+}
+
+.imagen-izq{
+    width: 100%;
+    height: 50vh;
+
+}
+.imagen-izq img{
+    margin: auto;
+}
+.imagen-der img{
+    margin: auto;
+}
+}
+@media only screen and (max-width: 500px) {
+}
